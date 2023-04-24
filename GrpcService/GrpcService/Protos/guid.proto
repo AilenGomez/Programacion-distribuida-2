@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService";
+
+package GUId;
+
+
+service GUId {
+  
+  rpc GetGuid (GuidRequest) returns (GuidReply);
+}
+
+message GuidRequest {}
+
+message GuidReply {
+  string message = 1;
+}

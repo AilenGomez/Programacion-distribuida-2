@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos/Guid.cs \
+obj\Debug\net6.0\Protos/GuidGrpc.cs: Protos/guid.proto

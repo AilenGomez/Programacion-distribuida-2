@@ -1,0 +1,40 @@
+services:
+  grpcService:
+    container_name: grpcservice
+    image: guidservice
+    restart: always
+    ports:
+      - 8060:80
+    build: 
+      context: GrpcService
+      dockerfile: Dockerfile
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.10
+      red_interna:
+        ipv4_address: 192.168.20.10
+    
+  UsersQueueApi:
+    container_name: userqueueapi
+    image: userqueueapi
+    restart: always
+    ports:
+      - 8070:80
+    build: 
+      context: UsersQueueApi
+      dockerfile: Dockerfile
+    volumes:
+      - .\UsersQueueApi\UsersQueueApi\WebUI\Log:/app/Log
+    networks:
+      red_interna:
+        ipv4_address: 192.168.20.20
+
+networks:
+  red_web:
+    ipam:
+      config:
+      - subnet: 192.168.10.0/24
+  red_interna:
+    ipam:
+      config:
+        - subnet: 192.168.20.0/24

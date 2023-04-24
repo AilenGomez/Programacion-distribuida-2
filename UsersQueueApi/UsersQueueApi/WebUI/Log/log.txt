@@ -1,0 +1,18 @@
+2023-04-21 16:59:58.737 +00:00 [INF] path /app/
+2023-04-21 16:59:58.783 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-04-21 16:59:58.819 +00:00 [WRN] No XML encryptor configured. Key {6359d878-f884-48c3-b727-a9c690b80bc1} may be persisted to storage in unencrypted form.
+2023-04-21 18:46:39.729 +00:00 [INF] path /app/
+2023-04-21 18:46:39.794 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-04-21 18:46:39.859 +00:00 [WRN] No XML encryptor configured. Key {c44ca68d-e981-4952-9cd8-03d620fe6e0c} may be persisted to storage in unencrypted form.
+2023-04-21 18:47:18.634 +00:00 [INF] path /app/
+2023-04-21 18:47:18.668 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-04-21 18:48:35.394 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-04-21 18:48:35.453 +00:00 [WRN] No XML encryptor configured. Key {76a4b1f9-3417-4913-951c-133f66277491} may be persisted to storage in unencrypted form.
+2023-04-21 18:49:45.836 +00:00 [INF] ::ffff:192.168.20.1
+2023-04-21 18:49:47.327 +00:00 [INF] ::ffff:192.168.20.1
+2023-04-21 18:49:47.506 +00:00 [INF] ::ffff:192.168.20.1
+2023-04-21 18:49:47.650 +00:00 [INF] ::ffff:192.168.20.1
+2023-04-21 18:49:47.844 +00:00 [INF] ::ffff:192.168.20.1
+2023-04-21 18:51:50.998 +00:00 [INF] ::ffff:192.168.20.1
+2023-04-21 23:05:21.582 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-04-21 23:05:21.631 +00:00 [WRN] No XML encryptor configured. Key {b416fdf7-e371-4194-907d-2142022ad576} may be persisted to storage in unencrypted form.
