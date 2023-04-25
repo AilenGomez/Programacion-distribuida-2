@@ -10,6 +10,33 @@
 - Grpc v2.52.0
 - Serilog v2.12.0
 
+## Requisitos
+
+#### Docker
+
+Abrir la consola y ejecutar el siguiente comando:
+
+``` 
+docker -v
+```
+
+La salida debe ser algo similar a "Docker version 20.10.14", donde indica la version de docker instalada, en caso contrario se debe instalar docker. En los siguientes links pueden encontrar un tutarial de la documentacion oficial como guia.
+- [Linux](https://docs.docker.com/desktop/install/linux-install/)
+- [Windows](https://docs.docker.com/desktop/install/windows-install/)
+
+### GitHub
+
+Abrir la consola y ejecutar el siguiente comando:
+
+``` 
+git --version
+```
+
+La salida debe ser similar a "git version 2.35.1.windows.2", indicando la version de git instalada, en caso de no tener instalado git, seguir el tutorial que corresponda segun tu Sistema operativo.
+
+- [Linux](https://git-scm.com/download/linux)
+- [Windows](https://git-scm.com/download/win)
+
 ## :rocket: Ejecución del proyecto
 
 Clonar proyecto ejecutando el siguiente comando en la consola:
@@ -21,17 +48,7 @@ git clone https://github.com/AilenGomez/Programacion-distribuida-2
 
 ### :zap: Ejecución
 
-#### Docker
 
-Abrir la consola y ejecutar los siguientes comandos:
-
-``` 
-docker -v
-```
-
-La salida debe ser algo similar a "Docker version 20.10.14", donde indica la version de docker instalada, en caso contrario se debe instalar docker. En los siguientes links pueden encontrar un tutarial de la documentacion oficial como guia.
-- [Linux](https://docs.docker.com/desktop/install/linux-install/)
-- [Windows](https://docs.docker.com/desktop/install/windows-install/)
 
 - Una vez instalado docker, abrir terminal en la carpeta donde se clono el repositorio /Programacion-distribuida-2 y ejecutar el siguiente comando:
 
