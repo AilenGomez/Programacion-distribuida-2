@@ -1,9 +1,10 @@
--   ¿Cómo resolvió la conexión entre los contenedores? ¿Cómo se ven entre sí ambos contenedores? ¿Utilizó algún modo de restricción?
+
+#  ¿Cómo resolvió la conexión entre los contenedores? ¿Cómo se ven entre sí ambos contenedores? ¿Utilizó algún modo de restricción?
 
 La conexion entre contenedores la administro a traves del docker compose con el atributo network. Configurando una red interna que contiene los dos contenedores. 
 Creando una subred llamada programacion-distribuida-2_red_interna 
 
--   Comparar REST sobre HTTP con gRPC y/o Apache Avro. Definir en qué contexto una tecnología es conveniente por sobre la otra o si no existen diferencias de uso.
+# Comparar REST sobre HTTP con gRPC y/o Apache Avro. Definir en qué contexto una tecnología es conveniente por sobre la otra o si no existen diferencias de uso.
 
 REST, gRPC y Apache Avro son tres tecnologías diferentes que se utilizan para la comunicación entre aplicaciones distribuidas. A continuación, 
 se presenta una comparación entre REST y gRPC/Apache Avro:
