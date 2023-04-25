@@ -10,9 +10,9 @@
 - Grpc v2.52.0
 - Serilog v2.12.0
 
-## Requisitos
+## :clipboard: Requisitos
 
-#### Docker
+### 1 - Docker
 
 Abrir la consola y ejecutar el siguiente comando:
 
@@ -24,7 +24,7 @@ La salida debe ser algo similar a "Docker versión 20.10.14", donde indica la ve
 - [Linux](https://docs.docker.com/desktop/install/linux-install/)
 - [Windows](https://docs.docker.com/desktop/install/windows-install/)
 
-### GitHub
+### 2 - GitHub
 
 Abrir la consola y ejecutar el siguiente comando:
 
