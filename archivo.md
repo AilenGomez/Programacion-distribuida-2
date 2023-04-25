@@ -25,7 +25,10 @@ se presenta una comparación entre REST y gRPC/Apache Avro:
 - Utiliza la serialización de mensajes para enviar datos entre el cliente y el servidor.
 - Utiliza el lenguaje de definición de servicios (protobuf) para definir los servicios y los mensajes que se envían entre ellos.
 - Es compatible con varios lenguajes de programación, incluyendo C++, Java, Python, Go, Ruby y otros.
-- 
+<p align="center">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/32937466/234299761-3f6aa5bd-1052-49ac-b7be-0fbe407a0154.png">
+</p>
+
 El gRPC es recomendado para su uso en microservicios o para integraciones de APIs internas gracias a que ofrece una mayor escalabilidad y una optimizada respuesta por 
 su baja latencia en el envío de mensajes por el formato binario de HTTP/2.
 
@@ -38,4 +41,3 @@ En resumen, REST es una arquitectura de software que se basa en HTTP para la com
 Apache Avro son sistemas de comunicación de alta velocidad que utilizan protocolos diferentes y técnicas de serialización de datos para enviar datos entre aplicaciones
 distribuidas. La elección entre estas tecnologías dependerá de cada proyecto, tienen necesidades y requisitos diferentes por lo que la arquitectura API elegida debería depender del uso que vaya a tener.
 
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/32937466/234299761-3f6aa5bd-1052-49ac-b7be-0fbe407a0154.png">
