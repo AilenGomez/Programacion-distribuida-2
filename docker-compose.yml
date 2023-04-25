@@ -9,8 +9,6 @@ services:
       context: GrpcService
       dockerfile: Dockerfile
     networks:
-      red_web:
-        ipv4_address: 192.168.10.10
       red_interna:
         ipv4_address: 192.168.20.10
     
@@ -30,11 +28,7 @@ services:
         ipv4_address: 192.168.20.20
 
 networks:
-  red_web:
-    ipam:
-      config:
-      - subnet: 192.168.10.0/24
   red_interna:
     ipam:
       config:
-        - subnet: 192.168.20.0/24
+      - subnet: 192.168.20.0/24
