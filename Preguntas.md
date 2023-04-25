@@ -1,7 +1,7 @@
 
 #  ¿Cómo resolvió la conexión entre los contenedores? ¿Cómo se ven entre sí ambos contenedores? ¿Utilizó algún modo de restricción?
 
-La conexion entre contenedores la administro a traves del docker compose con el atributo network. Configurando una red interna que contiene los dos contenedores. 
+La conexión entre contenedores la administró a través del docker compose con el atributo network. Configurando una red interna que contiene los dos contenedores. 
 Creando una subred llamada programacion-distribuida-2_red_interna 
 
 # Comparar REST sobre HTTP con gRPC y/o Apache Avro. Definir en qué contexto una tecnología es conveniente por sobre la otra o si no existen diferencias de uso.
@@ -40,4 +40,5 @@ Como desventaja hay que recalcar que por su formato es más pesado que gRPC (per
 En resumen, REST es una arquitectura de software que se basa en HTTP para la comunicación entre el cliente y el servidor, mientras que gRPC y 
 Apache Avro son sistemas de comunicación de alta velocidad que utilizan protocolos diferentes y técnicas de serialización de datos para enviar datos entre aplicaciones
 distribuidas. La elección entre estas tecnologías dependerá de cada proyecto, tienen necesidades y requisitos diferentes por lo que la arquitectura API elegida debería depender del uso que vaya a tener.
+
 
