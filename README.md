@@ -1,4 +1,4 @@
-# Programacion distribuida 2
+# Programación distribuida 2
 
 ## :computer: Tecnologías
 
@@ -20,7 +20,7 @@ Abrir la consola y ejecutar el siguiente comando:
 docker -v
 ```
 
-La salida debe ser algo similar a "Docker version 20.10.14", donde indica la version de docker instalada, en caso contrario se debe instalar docker. En los siguientes links pueden encontrar un tutarial de la documentacion oficial como guia.
+La salida debe ser algo similar a "Docker versión 20.10.14", donde indica la versión de docker instalada, en caso contrario se debe instalar docker. En los siguientes links pueden encontrar un tutorial de la documentación oficial como guía.
 - [Linux](https://docs.docker.com/desktop/install/linux-install/)
 - [Windows](https://docs.docker.com/desktop/install/windows-install/)
 
@@ -32,7 +32,7 @@ Abrir la consola y ejecutar el siguiente comando:
 git --version
 ```
 
-La salida debe ser similar a "git version 2.35.1.windows.2", indicando la version de git instalada, en caso de no tener instalado git, seguir el tutorial que corresponda segun tu Sistema operativo.
+La salida debe ser similar a "git version 2.35.1.windows.2", indicando la versión de git instalada, en caso de no tener instalado git, seguir el tutorial que corresponda según tu Sistema operativo.
 
 - [Linux](https://git-scm.com/download/linux)
 - [Windows](https://git-scm.com/download/win)
@@ -50,7 +50,7 @@ git clone https://github.com/AilenGomez/Programacion-distribuida-2
 
 
 
-- Una vez instalado docker, abrir terminal en la carpeta donde se clono el repositorio /Programacion-distribuida-2 y ejecutar el siguiente comando:
+- Una vez instalado docker, abrir terminal en la carpeta donde se clonó el repositorio /Programacion-distribuida-2 y ejecutar el siguiente comando:
 
 ``` 
 docker compose up -d 
@@ -64,7 +64,7 @@ http://localhost:8070/swagger/index.html
 
 ### Swagger
 
-Donde se abrira un swagger UI, con los dos enpoints de la api rest.
+Donde se abrirá un swagger UI, con los dos endpoints de la api rest.
 
 <img width="719" alt="image" src="https://user-images.githubusercontent.com/32937466/234098543-f240dad8-ccaa-4ffe-bb95-c7e3a4d4118b.png">
 
@@ -84,9 +84,9 @@ Lo mismo para el otro endpoint
 
 ### Postman
 
-Tambien se puede probar importando la collection de postman UsersQueueApi.postman_collection.json.
+También se puede probar importando la collection de postman UsersQueueApi.postman_collection.json.
 
-En la opcion "Import"
+En la opción "Import"
 
 <img width="152" alt="image" src="https://user-images.githubusercontent.com/32937466/234100781-130af463-93f3-46c2-b7c1-a299d601e940.png">
 
@@ -99,6 +99,7 @@ Seleccionando el archivo .json desde el explorador de archivos
 <img width="742" alt="image" src="https://user-images.githubusercontent.com/32937466/234101423-fee424d2-3a6d-486a-b196-98f7e6c7ff0e.png">
 
 <img width="743" alt="image" src="https://user-images.githubusercontent.com/32937466/234100325-07b53f5c-f838-494d-93fb-d33e25968e65.png">
+
 
 
 
