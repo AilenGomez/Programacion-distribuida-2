@@ -3,8 +3,6 @@ services:
     container_name: grpcservice
     image: guidservice
     restart: always
-    ports:
-      - 8060:80
     build: 
       context: GrpcService
       dockerfile: Dockerfile

@@ -10,7 +10,7 @@ namespace UsersQueueApi.Infrastructure.Endpoints
         public async Task<string> GetGuid()
         {
 
-            var channel = GrpcChannel.ForAddress("http://host.docker.internal:8060");
+            var channel = GrpcChannel.ForAddress("http://grpcservice:80");
             var client = new GUId.GUIdClient(channel);
             var response = await client.GetGuidAsync(new GuidRequest { });
             return response.Message;
